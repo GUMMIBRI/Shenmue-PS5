@@ -1,0 +1,1256 @@
+{
+  "files": [
+    {
+      "path": "CMakeLists.txt",
+      "size": 5609,
+      "sha256": "39c7da71e5835447ae0e0721ad847f47ba04360e335af593a4e6ca09dc755519"
+    },
+    {
+      "path": "docs/ACTOR-RENDER.md",
+      "size": 4657,
+      "sha256": "71e350c6f62a7b705680948ea2d55c806eb7faafa6ff85327b445099e74f17bb"
+    },
+    {
+      "path": "docs/ACTOR-WORLD.md",
+      "size": 7246,
+      "sha256": "403da6aa1ac9b785d2894a4d76a20cc1ba605a13a2a506f7e6403331d7189e9b"
+    },
+    {
+      "path": "docs/AFS-READER.md",
+      "size": 6088,
+      "sha256": "22de143354e168b30911ffa449859af1315fafffe43fda0e1a452abdd053627a"
+    },
+    {
+      "path": "docs/AFS-SCOPE.md",
+      "size": 2455,
+      "sha256": "cc8f945fd2de03dca6e63bab2670b029a87fb6e37c9dedd24fda2f03839775be"
+    },
+    {
+      "path": "docs/AICA-ADPCM.md",
+      "size": 6644,
+      "sha256": "4b6f7bcd79062331875174a0bffd5be2f0477b961f1936504638c0a4dea74a4f"
+    },
+    {
+      "path": "docs/AICA-CODEC-EVIDENCE.md",
+      "size": 4693,
+      "sha256": "1ad288d484fcca9239950c3640ac8df75caf67b5093289df72756c4c86fc1b22"
+    },
+    {
+      "path": "docs/APPLICATION-INTEGRATION.md",
+      "size": 1957,
+      "sha256": "2aee5a09b47ffeb001232181de941956050499b21dcdb395d90c101a41583fed"
+    },
+    {
+      "path": "docs/ARCHIVE-SET.md",
+      "size": 4113,
+      "sha256": "70db04bd0f7ac3e87837f57e5a3ccfe550991f132869d3c9ef58434bb2e19ed5"
+    },
+    {
+      "path": "docs/ASSET-STREAM.md",
+      "size": 8407,
+      "sha256": "7265315b4b55f4228337fa7c5ee8ed3a87cd65dac7fa91cb5e5b58d85e9f4d8e"
+    },
+    {
+      "path": "docs/COMPAT-MEMSTREAM.md",
+      "size": 4086,
+      "sha256": "4eb52681dbca1d83b025c94de82a3e8d35a68a129834a5ea1fdad605c0b2129d"
+    },
+    {
+      "path": "docs/DDS-SCOPE.md",
+      "size": 4044,
+      "sha256": "3cf5f787aa38401685025ce6b16dbbb8ef5b5f5684e9b23cf98adfd7c33e9977"
+    },
+    {
+      "path": "docs/DIALOGUE-BODY.md",
+      "size": 5870,
+      "sha256": "cd0d15a87ca42034bbb385f938be8c251c3ed00d0ccd093be7f3ec8d2455055e"
+    },
+    {
+      "path": "docs/DIALOGUE-DISPATCH-HOST.md",
+      "size": 4281,
+      "sha256": "4d6e61931788755a21f13030d6e59c68e5794f67687eeabc71fc686527799d6e"
+    },
+    {
+      "path": "docs/DIALOGUE-DISPATCH.md",
+      "size": 5043,
+      "sha256": "70c6bac1ea2bd8b1a517457993f45b032b182d80937cbc51e0ddf520ffbac61a"
+    },
+    {
+      "path": "docs/DIALOGUE-EXPRESSION-EVIDENCE.md",
+      "size": 7185,
+      "sha256": "124a4578592a99ea8a4c4acd5d90fc077216c135d013344f46ea586ac9386bbf"
+    },
+    {
+      "path": "docs/DIALOGUE-EXPRESSION.md",
+      "size": 7016,
+      "sha256": "fbd944943bcffaf149e811d26f42793b8f2f7f1ea9c7be1c458e6043a7ec3bd8"
+    },
+    {
+      "path": "docs/DIALOGUE-MACHINE.md",
+      "size": 7194,
+      "sha256": "dbf6aaeb55afa3461e23e86c12c2c1ab6041e740ca2ac088725b266b5b559fda"
+    },
+    {
+      "path": "docs/DIALOGUE-PROGRESS.md",
+      "size": 3753,
+      "sha256": "79a7f27e8c2c4b2f44b583c017b961d87964f49b19eff4b7eaa8a7ad86861f20"
+    },
+    {
+      "path": "docs/DISPLAY-EFFECTS.md",
+      "size": 8234,
+      "sha256": "28f5c046f2dfede0a2095228001cfdf4ee5718c293ba4199716b66cf06f1724c"
+    },
+    {
+      "path": "docs/ENGINE-BASIS-NEW-YOKOSUKA.md",
+      "size": 4343,
+      "sha256": "948f2555ef68062b77e9f976d6cf8e0e045afa31b9433b79d963bdcef432ff11"
+    },
+    {
+      "path": "docs/EVENT-OWNERSHIP.md",
+      "size": 4976,
+      "sha256": "6fda2350361e04e2552358f35cc5362d760fd2b265701089fc00b852bfc5a7fb"
+    },
+    {
+      "path": "docs/GAME-CONTEXT.md",
+      "size": 6218,
+      "sha256": "eab8c2b0166876d53aa1162691baf9940245038b36697c8f06755af19ba795cb"
+    },
+    {
+      "path": "docs/GAME-EVENTS.md",
+      "size": 6551,
+      "sha256": "e72af26a04d79cdd185fd5d3dd428b625850e66af6dd76968188cd4c2c38456a"
+    },
+    {
+      "path": "docs/GAME-STATE-API.md",
+      "size": 6015,
+      "sha256": "f18a79384006a342e0a339c2943782b0c06ab7c2124cae0e9c68d38a9a7b0972"
+    },
+    {
+      "path": "docs/GAME-STATE.md",
+      "size": 4621,
+      "sha256": "e0caa1f0d9638feb6aa3580ae2c56a14ce661797817c4018b7d7a30b9394d194"
+    },
+    {
+      "path": "docs/GPU-CONTEXT.md",
+      "size": 7607,
+      "sha256": "744d08f175deca8baaeaa28da7f0c50984224ee448e2b26c0083e755a712f9ce"
+    },
+    {
+      "path": "docs/GPU-FRAME.md",
+      "size": 7408,
+      "sha256": "d162ffa1f211d7be3f40576355e47bde594b36a8ac7a02080576ec40e62ee2a5"
+    },
+    {
+      "path": "docs/GPU-LIGHTING.md",
+      "size": 4329,
+      "sha256": "b145e11c4bbfb934862a83b16a1169495d2f88c212743cbadead09fc913dae56"
+    },
+    {
+      "path": "docs/GPU-MESH.md",
+      "size": 7950,
+      "sha256": "f310cd048611039e90215cfa649b1fc7cb502aca3f14f937aac36fde9daa6144"
+    },
+    {
+      "path": "docs/GPU-PACK.md",
+      "size": 7016,
+      "sha256": "48e4c56dbe2924514aa52639bbed722647f444d50b0214944c2ce2665820b2b3"
+    },
+    {
+      "path": "docs/GPU-RENDERER.md",
+      "size": 2330,
+      "sha256": "3d7d39ad4d58ae47a6c70f14761f9ab6fc5280ebcd0eb34abe42f8b132d3a4a4"
+    },
+    {
+      "path": "docs/GPU-TEXTURE.md",
+      "size": 9678,
+      "sha256": "a168e3e5ad9542892b37a6043b1ad3d8bc0b49a0cad3a17fe17419334755bc0d"
+    },
+    {
+      "path": "docs/GRAPHICS-APPLY.md",
+      "size": 8303,
+      "sha256": "92224bd5b3523d2732d07ed8412f8fa9b0eda7e15068f88cdc53a31183d721cd"
+    },
+    {
+      "path": "docs/GRAPHICS-PREFERENCES.md",
+      "size": 1205,
+      "sha256": "4af1e4ed6194b73634ce74b81ea29c140e86ae756d328e2640a7a9673983fd06"
+    },
+    {
+      "path": "docs/GRAPHICS-SETTINGS.md",
+      "size": 6552,
+      "sha256": "95ab8a42cb28c79c1ca20ee3f26925793023286619f1526f47e3ae4a6d77552b"
+    },
+    {
+      "path": "docs/GZIP-REVIEW.md",
+      "size": 3285,
+      "sha256": "a0a1d2d314d5c3b4423f8db1ca30cc82ad20a2082c2a9cf46c9ec2696634c6e4"
+    },
+    {
+      "path": "docs/GZIP-SCOPE.md",
+      "size": 1192,
+      "sha256": "b9ad13106410b44ef7660d48b7e8f25256b4dd89d438d13c8ba3bd5619d4f168"
+    },
+    {
+      "path": "docs/MODEL-TEXTURES.md",
+      "size": 5895,
+      "sha256": "3e57eab6367a2f6d0750200aa16aa31bba565313e4f00c6a65744f1af16fe11e"
+    },
+    {
+      "path": "docs/MOTION-SCOPE.md",
+      "size": 5680,
+      "sha256": "a14c8a829580173ab4269770a4331ece70447b689f9c8f026dfe66a218775d70"
+    },
+    {
+      "path": "docs/MOVIE-EFFECTS.md",
+      "size": 10883,
+      "sha256": "f64963b597caa34033a2a06ef57236934ce5d4fad4583be6b6c8adcc888d07c9"
+    },
+    {
+      "path": "docs/MT5-GEOMETRY.md",
+      "size": 4250,
+      "sha256": "b7e4d6fad011ed82b81e37fd53aa0af819f9c62358a4e4210792283cc80162af"
+    },
+    {
+      "path": "docs/MT5-SCOPE.md",
+      "size": 9456,
+      "sha256": "cb44d5610ce1c4fecbbcad627c5e6d95e1b6a6ea75bc87132bc46b7b674d3929"
+    },
+    {
+      "path": "docs/MT7-SCOPE.md",
+      "size": 5868,
+      "sha256": "3f1d3c92fa905c7475dd698e0346fd4a0302583cb0ff38a5b02f9027bbd41e27"
+    },
+    {
+      "path": "docs/MT7-TOPOLOGY-EVIDENCE.md",
+      "size": 4134,
+      "sha256": "2679e2ed83a1491fd9d2cccfa5b5499f06f54c6c4e389c5b620699359d999cac"
+    },
+    {
+      "path": "docs/PACKAGE-TEXTURE.md",
+      "size": 3614,
+      "sha256": "1fa57521a35f693634b364dc05f7d4abe194b7a04009fdd2f3b8c54fa8fcf23f"
+    },
+    {
+      "path": "docs/PKF-SCOPE.md",
+      "size": 3162,
+      "sha256": "8f9501adab6d518dfe81d5c39871f1a00e2c90b1b2f1224f084f42135211f47c"
+    },
+    {
+      "path": "docs/PLATFORM-COMPAT.md",
+      "size": 1616,
+      "sha256": "612feda3c039ca06cbe80a3d82a9910e4039f5994c6e459899bf8f1ae1cacacd"
+    },
+    {
+      "path": "docs/POST-PROCESSOR.md",
+      "size": 8794,
+      "sha256": "afcc0bdb877d681df8c87539e4407781a615400394557ff4b1fd06ccb1e6d1cd"
+    },
+    {
+      "path": "docs/PVR-DDS-SCOPE.md",
+      "size": 3766,
+      "sha256": "92dac22805616a6d7710f26d65f4f5c2d7a0b2e8254d3d2e63a5ef43951596d4"
+    },
+    {
+      "path": "docs/PVR-SCOPE.md",
+      "size": 5530,
+      "sha256": "b2c4a65da6b9847d9d7c8a6ce52749183abdb09ae432187b7831dcd79d2af19b"
+    },
+    {
+      "path": "docs/REFERENCE-GAME-STATE.md",
+      "size": 4700,
+      "sha256": "edf0550cf55c99f26a235ed30d721c03036cc8b38c026a8307fa2cbd53b360b9"
+    },
+    {
+      "path": "docs/RENDER-LAYOUT.md",
+      "size": 6992,
+      "sha256": "a6342d0f61c97f90e9720343b5ab9260378409d78eccdd87131c9bc26a0d9ecb"
+    },
+    {
+      "path": "docs/SCENE-ACTORS.md",
+      "size": 5324,
+      "sha256": "0a2ca638dba76c4083bf265a307c03d4c3174ad07dfabbf306bf547dde73b724"
+    },
+    {
+      "path": "docs/SCENE-DRAWS.md",
+      "size": 5342,
+      "sha256": "23b363a7a0fd12ed84d5e4f84e781702dd3ea6900c94c914a33c75bea651ff80"
+    },
+    {
+      "path": "docs/SCENE-RESOURCE.md",
+      "size": 7163,
+      "sha256": "5c7de5f09b6b3678520c2ad60fcab240c9a082fdfa9a833b1c64166c1356f74e"
+    },
+    {
+      "path": "docs/SCENE-SESSION.md",
+      "size": 6672,
+      "sha256": "78da7238cc2b88625caef46c8e5f2f740b5c1ee06067e480a8449740e3d1594b"
+    },
+    {
+      "path": "docs/SCENE-TARGET.md",
+      "size": 4857,
+      "sha256": "44863bdea43d297130df003b8c757ebf66b672ee45087da3aa88effba5bb6c5e"
+    },
+    {
+      "path": "docs/SESSION-CONTRACT.md",
+      "size": 5736,
+      "sha256": "2916c27f628fb1a84090c8eb1d00110b40fe0885bb5e34670439cd03303eac18"
+    },
+    {
+      "path": "docs/SPSD-AICA.md",
+      "size": 6710,
+      "sha256": "a0b1f05448eb522c25f97599c40dfe21fd6839c941eec4d1eee7d14c8b01b5e4"
+    },
+    {
+      "path": "docs/SPSD-SCOPE.md",
+      "size": 6203,
+      "sha256": "41ed9822612f62ea68dca56e4cd1f185b94adc769c8d2c3a6f3186c10528ef7c"
+    },
+    {
+      "path": "docs/SPSD-VOICE.md",
+      "size": 4793,
+      "sha256": "dbf826bb5c9adff8f1a4adcbb2e1719c4f04221942d95330006fedda122f2bbc"
+    },
+    {
+      "path": "docs/SRF-SCOPE.md",
+      "size": 5663,
+      "sha256": "15a9fc9617552396e8cf1e8e2a337600643a994125fd8b84cf96cb785054c9c1"
+    },
+    {
+      "path": "docs/STARTUP-RESOURCES.md",
+      "size": 6391,
+      "sha256": "d13104034d03e36cafb6b7a1a191517ffd07ab87f66670c6c35790427f3911a0"
+    },
+    {
+      "path": "docs/STARTUP-SCENE.md",
+      "size": 6063,
+      "sha256": "81a512758aa33a24f46ebcca27363087e580e8e56f11549ce094566c4ad5cd30"
+    },
+    {
+      "path": "docs/STATE-BANK-LAYOUT-EVIDENCE.md",
+      "size": 3961,
+      "sha256": "6c4058863571e47ea01417dea8baaf7b36d12a2efd61cbb5a353ae98f1edd774"
+    },
+    {
+      "path": "docs/TAD-PROVENANCE.md",
+      "size": 3663,
+      "sha256": "a17a5a3ffb2711f6165ee5e66d5b035593703caff766f1c49fb645d4400d1edb"
+    },
+    {
+      "path": "docs/TEXTURE-RESOURCE.md",
+      "size": 2570,
+      "sha256": "3d9f7ba1da302d7dac0fc97c01f320eb9cb22cf49213b0e4b2b66068538d47ba"
+    },
+    {
+      "path": "docs/WORLD-CLOCK.md",
+      "size": 5137,
+      "sha256": "b591699885a7796a59920205ce8ab4f838415b6890f2f47e835231fcb855a13d"
+    },
+    {
+      "path": "docs/WORLD-COLLISION.md",
+      "size": 7626,
+      "sha256": "6123851f862b26292ff0dc4404d544d6436e576a8a4a14ca3530267550da0676"
+    },
+    {
+      "path": "include/cedar/actor_render.hpp",
+      "size": 1567,
+      "sha256": "b6115c2ee94267744d6e8a8085be5626b9b8e14804cff7dff81100816dedcf44"
+    },
+    {
+      "path": "include/cedar/actor_world.hpp",
+      "size": 2988,
+      "sha256": "8285e2796e59de35009008a278c9b41bd32d081cca1ce1352d65dfdf43513d49"
+    },
+    {
+      "path": "include/cedar/afs_reader.hpp",
+      "size": 3450,
+      "sha256": "5483570d07cc1c111a9bbf1978cde3bc761665ec1ad5073fbd62ddf2e72cb079"
+    },
+    {
+      "path": "include/cedar/afs.hpp",
+      "size": 2074,
+      "sha256": "0df5b9bd51fad7b3b22e8417834b69362db1b153b10a60021a01b9b31f08f809"
+    },
+    {
+      "path": "include/cedar/aica_adpcm.hpp",
+      "size": 2742,
+      "sha256": "cbfafc483f553a693c5bba8bba782333546f01ae04a48cfb0177417c40692dec"
+    },
+    {
+      "path": "include/cedar/application.hpp",
+      "size": 3272,
+      "sha256": "b0646a5471796a5cd3739fb237e20406220445c25a801008439ec4c1bc4371d5"
+    },
+    {
+      "path": "include/cedar/archive_mount.hpp",
+      "size": 1411,
+      "sha256": "97b588e7c0097b362694f6bd5866451c32ef20865f6f939a1657692ddd6f2e12"
+    },
+    {
+      "path": "include/cedar/archive_set.hpp",
+      "size": 2577,
+      "sha256": "0be19e21d99f7b9944cc6a6cee52d80abd7471eeea9e040ad00d606ba3cfc68f"
+    },
+    {
+      "path": "include/cedar/archive_texture.hpp",
+      "size": 2069,
+      "sha256": "a5641eea14f55e53eee288f69b8898986564d9e407b558d73dfe6739bdbef396"
+    },
+    {
+      "path": "include/cedar/asset_stream.hpp",
+      "size": 5388,
+      "sha256": "0defb244b77e0124a5788c2f0b02ceaa9b29d40d5fd8ead0e97eb5f66d5856df"
+    },
+    {
+      "path": "include/cedar/assets.hpp",
+      "size": 1865,
+      "sha256": "9da709f14ec1a3d959788a1c9339c518806ae29fd172740655f667a100fc7f8e"
+    },
+    {
+      "path": "include/cedar/dds.hpp",
+      "size": 2963,
+      "sha256": "02e574428b42d3f488924b53e3a1658270aadcb7adb825092668375c59a40fc4"
+    },
+    {
+      "path": "include/cedar/dialogue_body.hpp",
+      "size": 2564,
+      "sha256": "fcf41ecf548632a9d261eb67e8a32734deb17695328195cbedbc9e514a3199a5"
+    },
+    {
+      "path": "include/cedar/dialogue_dispatch_host.hpp",
+      "size": 1789,
+      "sha256": "e644ff359dd1dc9e8e21115068bca48a3577d3c4c95c5a09df6e6d25b82bff5b"
+    },
+    {
+      "path": "include/cedar/dialogue_dispatch.hpp",
+      "size": 2570,
+      "sha256": "65a7d71b8ee27185a66ee36498d627ebe74fad0684e9330a049a6ac9cf405b84"
+    },
+    {
+      "path": "include/cedar/dialogue_expression.hpp",
+      "size": 4033,
+      "sha256": "729fd7bb912bc6340e61fa3af835b03b83843993d9a8ad1f7c7003992b308de8"
+    },
+    {
+      "path": "include/cedar/dialogue_machine.hpp",
+      "size": 3535,
+      "sha256": "24f5525a648dfe4136b00453f2356fd4a5a475c7bc7d82cea27cad6b9dfb5d37"
+    },
+    {
+      "path": "include/cedar/dialogue_progress.hpp",
+      "size": 2312,
+      "sha256": "d4988251987117a192370a37df144aa2a77c3cc3ba6a0da7811631aa4caf6830"
+    },
+    {
+      "path": "include/cedar/display_effects.hpp",
+      "size": 2401,
+      "sha256": "ca78fec2b87d83417eb3b175c7c4d37bf358a109dedaa40bbadb77d2377412a0"
+    },
+    {
+      "path": "include/cedar/fsr1.hpp",
+      "size": 1985,
+      "sha256": "ef70823044c71b789deaf74fa2302a3c02cf9a5cf0fcd772f67bf77780800197"
+    },
+    {
+      "path": "include/cedar/game_context.hpp",
+      "size": 2806,
+      "sha256": "aec6ac45b939d725754662cead0804045120821c7478fffe969ef49acbad00a8"
+    },
+    {
+      "path": "include/cedar/game_events.hpp",
+      "size": 2029,
+      "sha256": "9c249b5bf2526c8c7071d57a4d72ff8537f5a73a1430c9a09b55fc61a4829a26"
+    },
+    {
+      "path": "include/cedar/game_state.hpp",
+      "size": 2847,
+      "sha256": "44c44eaab0766391466151de947d12483e19593be50d6c31cc797afa79b03c37"
+    },
+    {
+      "path": "include/cedar/gpu_context.hpp",
+      "size": 3708,
+      "sha256": "e4ac1486cf70ab8db3740d4b2c4927c79fdfbe99f737693d32cdae463c3e87ad"
+    },
+    {
+      "path": "include/cedar/gpu_frame.hpp",
+      "size": 3282,
+      "sha256": "8afd527dd34e6c9e4ac48baee5b69b49878f40edb0cc3e76970fd9ae27bc8071"
+    },
+    {
+      "path": "include/cedar/gpu_mesh.hpp",
+      "size": 3322,
+      "sha256": "9155a7ccd6ae97922e1178d2683ca12d0b4efa58f8696903f13089e4a8486287"
+    },
+    {
+      "path": "include/cedar/gpu_pack.hpp",
+      "size": 2572,
+      "sha256": "4a35d7bdf179eaf57194d1b6a049a44734629aaf0e7972d1a317e3081a337063"
+    },
+    {
+      "path": "include/cedar/gpu_renderer.hpp",
+      "size": 3846,
+      "sha256": "9899d08202fc5f554a6db89f6248d27e985dabc923c5ed45e5adaa0ae6b86ec4"
+    },
+    {
+      "path": "include/cedar/gpu_texture.hpp",
+      "size": 4661,
+      "sha256": "09b3d19cf787e236125a14a6f62fa28153ad99dcf2ed83b1a8004a5fd28d7370"
+    },
+    {
+      "path": "include/cedar/gpu_types.hpp",
+      "size": 975,
+      "sha256": "ad1c0158e64fa92f5af1ca76ddbfc81909924a3b615a30d1d39452cb8a0fc7e8"
+    },
+    {
+      "path": "include/cedar/graphics_apply.hpp",
+      "size": 3664,
+      "sha256": "ec5c1b404379d40943823d196915625744101ed49ff57afd01643050760c4c20"
+    },
+    {
+      "path": "include/cedar/graphics_preferences.hpp",
+      "size": 1446,
+      "sha256": "4cc4a8fa4f725c6432c271953d43dc2e41dcd40929f257895703c9646671bba8"
+    },
+    {
+      "path": "include/cedar/graphics_settings.hpp",
+      "size": 5645,
+      "sha256": "a506fa36359acc753710e6df7be90ed78dd791c4d0020511e7f9ed685647b8b4"
+    },
+    {
+      "path": "include/cedar/gzip_decode.hpp",
+      "size": 1518,
+      "sha256": "b158fdaf2e6fe14d8f490b0cde7aa79583b319128dfcaaa3b45316d5320a0cea"
+    },
+    {
+      "path": "include/cedar/model_textures.hpp",
+      "size": 4728,
+      "sha256": "722ab7233ca5f53781902bc72e8594da14576ec2dbcaaec0113f2cfff46e73c8"
+    },
+    {
+      "path": "include/cedar/movie_effects.hpp",
+      "size": 2665,
+      "sha256": "75868dafdedf04d0b4a62ef01c4da99b40c0b6b0f22eab006fd10950a0861477"
+    },
+    {
+      "path": "include/cedar/mt5_geometry.hpp",
+      "size": 3335,
+      "sha256": "86f34104d3fc4291af4146ff4f346c50d600af718ac2d914bdfd11ae2b615a3b"
+    },
+    {
+      "path": "include/cedar/mt5.hpp",
+      "size": 7617,
+      "sha256": "635d4a85cc0c22e6d1f340b59db867408d6114313b6355f149f30bd7f863b9ea"
+    },
+    {
+      "path": "include/cedar/mt7.hpp",
+      "size": 5386,
+      "sha256": "377b89d5f566a2883d10273e2b7fb623f241a0335519256cb35daeded0990193"
+    },
+    {
+      "path": "include/cedar/package_texture.hpp",
+      "size": 3086,
+      "sha256": "3378fe3c6c6911b65688cb852eb5e389142202168a4e4eb6871f712c68cc8756"
+    },
+    {
+      "path": "include/cedar/payload.hpp",
+      "size": 3606,
+      "sha256": "52760cea7e273ae037f2a9d236be036c6e49c5435127250b74f01b9289c951fd"
+    },
+    {
+      "path": "include/cedar/pkf.hpp",
+      "size": 3013,
+      "sha256": "586068773a5eb8382ea786f5a29f7fca26964f72b1a102f70d5a7f5fa3b03b62"
+    },
+    {
+      "path": "include/cedar/platform.hpp",
+      "size": 3525,
+      "sha256": "d8b9d759b77dc7c0f6e496261388b52438333f701ebb272b07b3e2e831407936"
+    },
+    {
+      "path": "include/cedar/posix_assets.hpp",
+      "size": 2733,
+      "sha256": "9ae7513c0c2b82111b5fce3024aeda509bb0271f43ecfada41dc0ec42698d72b"
+    },
+    {
+      "path": "include/cedar/post_blit.hpp",
+      "size": 816,
+      "sha256": "1e79a4eb48eedb455474a806ca474b01827bae2d178933674106258e348b7a1a"
+    },
+    {
+      "path": "include/cedar/post_processor.hpp",
+      "size": 3876,
+      "sha256": "ffc3a724643c5e7e605c9040d14a76e0b2c8da6445bc32f0b0288aeda809e01a"
+    },
+    {
+      "path": "include/cedar/post_types.hpp",
+      "size": 1165,
+      "sha256": "805c6fc4644c86a7e018a4961c8ea6b63871ce2de5e4080cd39ab63c790f1982"
+    },
+    {
+      "path": "include/cedar/presentation.hpp",
+      "size": 1752,
+      "sha256": "fe95fa6baccfceeee0065e0ad835716294ec5d8b54495f67c3602e004b85b1fc"
+    },
+    {
+      "path": "include/cedar/ps5_audio.hpp",
+      "size": 1494,
+      "sha256": "67a0a65a9ee59106e2067328c7b10c2f6df0da2632a6d98116f9d7ed9a9033e5"
+    },
+    {
+      "path": "include/cedar/ps5_input.hpp",
+      "size": 1493,
+      "sha256": "b5bb909957a8c8eea8be5cc6bd82496c852169a49e5e7b7d79c0bfb136edb8cf"
+    },
+    {
+      "path": "include/cedar/ps5_process.hpp",
+      "size": 1411,
+      "sha256": "14f2008d8c15e0c1677a39f155fee19232f4e810156a6c80c23c93723b369cf5"
+    },
+    {
+      "path": "include/cedar/ps5_session.hpp",
+      "size": 4023,
+      "sha256": "1c653e80da55eef153682d9cfec5f855a35ce25acf22fd8801e5fc0ec66dc430"
+    },
+    {
+      "path": "include/cedar/pvr_dds.hpp",
+      "size": 2410,
+      "sha256": "b665f120a9d1caa2b78456f241df7615e363cd8c43f59eef7b1aa31da61fdead"
+    },
+    {
+      "path": "include/cedar/pvr.hpp",
+      "size": 3342,
+      "sha256": "0061388d9de07e14597f0cb7fef8a2aa9d67ad1fe9b06d30c5f847a65eb5f765"
+    },
+    {
+      "path": "include/cedar/reference_game_state.hpp",
+      "size": 2045,
+      "sha256": "e2211c30f9700cee8d5c0c6e94a6d4422bcf32f322fb9e9592d2c9c865afeafe"
+    },
+    {
+      "path": "include/cedar/render_layout.hpp",
+      "size": 2356,
+      "sha256": "738cc795f57ea42cacb8b3b75f6c2a2c5abc84fe6c7c19d1e9137831fc9798c8"
+    },
+    {
+      "path": "include/cedar/save_store.hpp",
+      "size": 3380,
+      "sha256": "9283c09decee1c4a3a24a32ca3a32f84c3ad80add1278ada3ff244d82bc0fb61"
+    },
+    {
+      "path": "include/cedar/scene_actors.hpp",
+      "size": 2682,
+      "sha256": "3c7d091236ef2b1dc0f69be5db10bfade707270a37946b46e607cd0b99b64661"
+    },
+    {
+      "path": "include/cedar/scene_draws.hpp",
+      "size": 1762,
+      "sha256": "9ecc500f1aaa0352920a00f279fa8b946c8e2cac3ffc65d9e34069139f8ffe71"
+    },
+    {
+      "path": "include/cedar/scene_resource.hpp",
+      "size": 2458,
+      "sha256": "826d5afe50b4997a4074769d5c39fc970b8d86f47b2f83d6510f4a475cbccde0"
+    },
+    {
+      "path": "include/cedar/scene_session.hpp",
+      "size": 2650,
+      "sha256": "9547d60d8ad7360c5e58e2e8c72c4ed151294466b942ef5a9599b2f0cd4500f1"
+    },
+    {
+      "path": "include/cedar/scene_target.hpp",
+      "size": 2842,
+      "sha256": "71764db87f9394bd8c7ca3090c689194b1aebe802e80d70d7f059788a54a7d68"
+    },
+    {
+      "path": "include/cedar/sdl_events.hpp",
+      "size": 2135,
+      "sha256": "0f88b50f0fab55134ae33401a37f8c9f04f291d07d85f9c5a11a5a6b861309df"
+    },
+    {
+      "path": "include/cedar/spsd_aica.hpp",
+      "size": 3065,
+      "sha256": "e44a20dbb126c60c99bb02cab09130f7245b9ed6606e57c3b17de0923cc466c5"
+    },
+    {
+      "path": "include/cedar/spsd_voice.hpp",
+      "size": 2022,
+      "sha256": "43d54c19bc9ae1c62ee9914ee1d444f73478cc2db67da13bb89707c8efa02f29"
+    },
+    {
+      "path": "include/cedar/spsd.hpp",
+      "size": 3140,
+      "sha256": "110df184ab8506dc80a756236e167a2da12a943b244b94c389bc7b920ed54282"
+    },
+    {
+      "path": "include/cedar/srf.hpp",
+      "size": 3271,
+      "sha256": "d5b8f698e6708f6cbf247dc35c8a04415b626fc580b54593adad55bfbf0e93de"
+    },
+    {
+      "path": "include/cedar/startup_resources.hpp",
+      "size": 4054,
+      "sha256": "9c470a333954534ca704ffd15a3f9086abecf433efb3393785bd5811f8b14b68"
+    },
+    {
+      "path": "include/cedar/startup_scene.hpp",
+      "size": 2294,
+      "sha256": "7f87239f464f2ac561b82cdf45398323d0e73b6b44b4dd03b8c62815fbff60b2"
+    },
+    {
+      "path": "include/cedar/tac_reader.hpp",
+      "size": 2657,
+      "sha256": "46b3fed16a3e272d610aee522a05fd2a81c2e416823d1f226f432b68ba8685d7"
+    },
+    {
+      "path": "include/cedar/tad.hpp",
+      "size": 2707,
+      "sha256": "677450cde39a1951ff31545d2980f5198d34fc215e35bf2d1c42860b1739b7cf"
+    },
+    {
+      "path": "include/cedar/texture_resource.hpp",
+      "size": 2455,
+      "sha256": "0dbd1e97bfa618c1292a3069562281b85cba8a80e505f3d468ebcbb5da293c38"
+    },
+    {
+      "path": "include/cedar/world_clock.hpp",
+      "size": 2156,
+      "sha256": "8fe41c9cdd75f8f7492ab95a15cdf33e71453af60d46018c79da1a0a42a5dd5f"
+    },
+    {
+      "path": "include/cedar/world_collision.hpp",
+      "size": 2210,
+      "sha256": "a0ca958c67e952d3aac39da8b44133b4901a38338e8062f7f38b82fe4114a52e"
+    },
+    {
+      "path": "LICENSE",
+      "size": 1615,
+      "sha256": "3c260075224116d90c992c7e647e4263723fb17bd8acfd641587d752a04001c7"
+    },
+    {
+      "path": "LICENSING.md",
+      "size": 2395,
+      "sha256": "c3cd388086c5fe5208091fc6874c4605486ef24a2118e065aa508a016cbab384"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "size": 9533,
+      "sha256": "4a2377f18cdb4a8338a50baa540035a9dd33e10bcaef0caeb4642efd41e97e66"
+    },
+    {
+      "path": "PUBLIC-REVIEW.json",
+      "size": 4888,
+      "sha256": "9d44936ef7253ce97c30b7c9ed88f846f8a9661f03e0d2109fd31aa0bb3584ee"
+    },
+    {
+      "path": "README.md",
+      "size": 2297,
+      "sha256": "91e0f7f639d7b60657fd8865cc37067e519a24178cf541858b048a2bb3263829"
+    },
+    {
+      "path": "shaders/display_filter.frag.glsl",
+      "size": 2451,
+      "sha256": "42bd4caace68c8c96c67eb2334ec3c2a02771258dbb0ce8ff99ce837efbadebf"
+    },
+    {
+      "path": "shaders/fsr1_easu.frag.glsl",
+      "size": 779,
+      "sha256": "fb4e92b5de63886baba84e9d68d7c202c59967e6670ccd63b44ce37d1f5b5111"
+    },
+    {
+      "path": "shaders/fsr1_rcas.frag.glsl",
+      "size": 743,
+      "sha256": "44a4c568cf8e9a4738d4a16a6578390676dfa95558f2fc10ea6b6aea36592200"
+    },
+    {
+      "path": "shaders/lit_mesh.frag.glsl",
+      "size": 1148,
+      "sha256": "19744bb3b41c77474097381a516fa9f79fdd6756ebda0d63612dc1876baf7ff8"
+    },
+    {
+      "path": "shaders/lit_mesh.vert.glsl",
+      "size": 1082,
+      "sha256": "eeb023cd7c7fc17860ba3902000241104c79d9d9e8941d4e4ae81da9a94bf61d"
+    },
+    {
+      "path": "shaders/mesh.frag.glsl",
+      "size": 373,
+      "sha256": "34267948e1111bcc34d76a6ab923f6abbe9ae91e739317b5c89fbe9ca4237412"
+    },
+    {
+      "path": "shaders/mesh.vert.glsl",
+      "size": 504,
+      "sha256": "eb5e881b530cb76ce2b81f487ec59d798ccf5dc13d142a56e4b39d80abac5b35"
+    },
+    {
+      "path": "shaders/movie_blur.frag.glsl",
+      "size": 995,
+      "sha256": "1f62425d259d783f46505b86e9488171948f099f499d2e47bc9289653c8f96a0"
+    },
+    {
+      "path": "shaders/movie_cleanup.frag.glsl",
+      "size": 2951,
+      "sha256": "14956f1544a96052833e6415e7a7e97e85b11faa89d3792ec7fd33b0c2113ee3"
+    },
+    {
+      "path": "shaders/post.vert.glsl",
+      "size": 274,
+      "sha256": "fc3ee09156e551cda8158312a04528e49dc2f6b2c03eb53b4dc7a8bbaf16691e"
+    },
+    {
+      "path": "src/actor_render.cpp",
+      "size": 7171,
+      "sha256": "af02a66c689038689fb02309315af60fd17b23d7a795d7b0a167d7675d4eb763"
+    },
+    {
+      "path": "src/actor_world.cpp",
+      "size": 7301,
+      "sha256": "b5f6e1f48405d4447f127de8f4080c8772fede9980be688a5b7a515fd8bd5887"
+    },
+    {
+      "path": "src/afs_reader.cpp",
+      "size": 10120,
+      "sha256": "b3171ccc9a73b40982b8812d7841ffc53dc29b94f3b0b29303610e18cdd6abd0"
+    },
+    {
+      "path": "src/afs.cpp",
+      "size": 4219,
+      "sha256": "39400e9c4654c598a61c638cb2d105f400da64be5cb4917113ed07c8ebfe1e39"
+    },
+    {
+      "path": "src/aica_adpcm.cpp",
+      "size": 4829,
+      "sha256": "a921c4966028d15c7a3061d64e19e2deeb80523b41be53a44d1a95d9f8c74703"
+    },
+    {
+      "path": "src/application.cpp",
+      "size": 4950,
+      "sha256": "141d18c6dd979e4802afa363e3482978c0a022da0de6d7ec83bd3771f42b5060"
+    },
+    {
+      "path": "src/archive_mount.cpp",
+      "size": 2255,
+      "sha256": "62142c84810078776af3553a9b36f61bb286a4700865a99dc97e6a4df4a30486"
+    },
+    {
+      "path": "src/archive_set.cpp",
+      "size": 2851,
+      "sha256": "e1017f70f1567df2769bc4a72b386a78738267449ff1b2aa738b252a6c7660c4"
+    },
+    {
+      "path": "src/archive_texture.cpp",
+      "size": 5044,
+      "sha256": "e3e654350f8d075175ce89eba2846acfad2751e635ace2cd892389f8724109c6"
+    },
+    {
+      "path": "src/asset_stream.cpp",
+      "size": 13718,
+      "sha256": "c82a78ec7fc2eb0f49d579ec51f66a5a314fc984bf3fff73eb8bda66ea5921d5"
+    },
+    {
+      "path": "src/assets.cpp",
+      "size": 5318,
+      "sha256": "fd6320d5c4ad2a3d682914d82ad290302e19af4d2e7dd9c1c855dced660b01ab"
+    },
+    {
+      "path": "src/dds.cpp",
+      "size": 13526,
+      "sha256": "9bf9b96847c6eb2c5fb0d7bc85f3331cc2da295f2db6ab079adbc12535522260"
+    },
+    {
+      "path": "src/dialogue_body.cpp",
+      "size": 6691,
+      "sha256": "0a9c40711e09da7340a58579322c89f1e732413cb6d61eac8e3a3a13380fb274"
+    },
+    {
+      "path": "src/dialogue_dispatch_host.cpp",
+      "size": 5974,
+      "sha256": "5c1c3dee7e4b19f23a8e77c6d88ff05441147662a38b8c8016c89f66a66a581e"
+    },
+    {
+      "path": "src/dialogue_dispatch.cpp",
+      "size": 5281,
+      "sha256": "662ce321cc7a3dafe928de332642718c7317ccb0dfaaeaa39101e9e8ebdaa763"
+    },
+    {
+      "path": "src/dialogue_expression.cpp",
+      "size": 10515,
+      "sha256": "57d992752dbca27b1be1512e0efb8300af35ee23c343598c711b69100d6f7c9e"
+    },
+    {
+      "path": "src/dialogue_machine.cpp",
+      "size": 7034,
+      "sha256": "2098a5b4e5d26a75430e433fd8e2142a0593a0052aa2dad2b4883d7a90abbeb8"
+    },
+    {
+      "path": "src/dialogue_progress.cpp",
+      "size": 6647,
+      "sha256": "ec62872c7e4a9a05bdf830416f4eefcd0fdf8322bb21ef8c4a63ddef2b0970cd"
+    },
+    {
+      "path": "src/display_effects.cpp",
+      "size": 9383,
+      "sha256": "5562e78b8266036d2e57ab798dad3a2f8e84aee293cc502cd89707965dd7619d"
+    },
+    {
+      "path": "src/fsr1.cpp",
+      "size": 11465,
+      "sha256": "50022b6469358d4b5e4313f31cf9c8e43b7f1b0f7aa281b24f2aed731fef8fb5"
+    },
+    {
+      "path": "src/game_context.cpp",
+      "size": 10054,
+      "sha256": "f6f512156ac14ac2c9c29c9c607a793534d780484c439ec94579b1026694dff0"
+    },
+    {
+      "path": "src/game_events.cpp",
+      "size": 2659,
+      "sha256": "36f298f2299a5099aa0fdc96e707590f90776ec90712e7e0723431ee882c14e5"
+    },
+    {
+      "path": "src/game_state.cpp",
+      "size": 6343,
+      "sha256": "1c6fa285b3e39d67a3c7a4c81eea2b2b2c92080f64ceb7bf4e225ec08037974f"
+    },
+    {
+      "path": "src/gpu_context.cpp",
+      "size": 10952,
+      "sha256": "5dcee016cbac0b6324eb158f3e9b5d6a3e5eeea10ed7ec333f037820ad005523"
+    },
+    {
+      "path": "src/gpu_frame.cpp",
+      "size": 7919,
+      "sha256": "d919cfb83cd0854a3f5ed1c657e7103b2435912536740b72cc1f96c7f62c4f3f"
+    },
+    {
+      "path": "src/gpu_mesh.cpp",
+      "size": 9446,
+      "sha256": "f375f7e2f939ce8281fdbf408f7ded0b11f27c13490da6514bd6a956b901b3f9"
+    },
+    {
+      "path": "src/gpu_pack.cpp",
+      "size": 8875,
+      "sha256": "4487ec008043519c0f5bcc8a43c50239e884a9ba3e4dfba992fab4d3ee23d4ca"
+    },
+    {
+      "path": "src/gpu_renderer.cpp",
+      "size": 16325,
+      "sha256": "f167b66ce438e2c59d0d6c5336ba82c68cbe22b28ef359851bc1c23320659f2e"
+    },
+    {
+      "path": "src/gpu_texture.cpp",
+      "size": 16775,
+      "sha256": "fe12067c31ac0c1d895f9467ccf02badeda2e0c90f6c8d0e6f632699ee581bf8"
+    },
+    {
+      "path": "src/graphics_apply.cpp",
+      "size": 12985,
+      "sha256": "72c1f14d90bd691c9a444e1b0834a85f7888556fd4208149bdfdffb8d5b404d7"
+    },
+    {
+      "path": "src/graphics_preferences.cpp",
+      "size": 1421,
+      "sha256": "a8bb2d78587946c707236ef6d11ed80d56bedea107b2a8353fffa6eae8c17e9c"
+    },
+    {
+      "path": "src/graphics_settings.cpp",
+      "size": 14023,
+      "sha256": "ea52b4dd1b9337866e72ca1418d80001598307fe9e38dbdc6a4f6eafaef99f42"
+    },
+    {
+      "path": "src/gzip_decode.cpp",
+      "size": 5123,
+      "sha256": "6f9e6ec933667feebba19b4be0da2857447d1bf8aa5ad2f2c6a28537a62ac328"
+    },
+    {
+      "path": "src/model_textures.cpp",
+      "size": 9142,
+      "sha256": "22c0dc051f893ca5131782f1cd83f73483a8d6ce06dcf0e8bdbfdd47aaad8e4d"
+    },
+    {
+      "path": "src/movie_effects.cpp",
+      "size": 20052,
+      "sha256": "e58796da5dd4ef9e669c5fdea2662c0e3524fafd030dd7b660447dddc58ad0ee"
+    },
+    {
+      "path": "src/mt5_geometry.cpp",
+      "size": 8735,
+      "sha256": "c18ce4f808cd2a7948920e11b2858a511e60c118d45c393a63c648554401a852"
+    },
+    {
+      "path": "src/mt5.cpp",
+      "size": 26261,
+      "sha256": "ffe63c952ad9f02fb4d4d593a03207a05847a10a3d4e4a22f4b4694058bcc4bf"
+    },
+    {
+      "path": "src/mt7.cpp",
+      "size": 14734,
+      "sha256": "ac22fba2c9cf0a922b7889059551a8a6c6f785ace9cc2eebb46107524d63cbad"
+    },
+    {
+      "path": "src/package_texture.cpp",
+      "size": 8635,
+      "sha256": "a5c073ab72ac055d9041731d8ea96d8c429beef52861b3df957baf189ad66288"
+    },
+    {
+      "path": "src/payload.cpp",
+      "size": 6819,
+      "sha256": "a80a50af6df079aae0f31bb7f59644f307145a1dba829b82912965f87e90241a"
+    },
+    {
+      "path": "src/pkf.cpp",
+      "size": 5670,
+      "sha256": "e703b594d91c545e5beca2bf15dc2d6f1628371fdcaccc858ef69b4799bdbd1a"
+    },
+    {
+      "path": "src/platform.cpp",
+      "size": 6394,
+      "sha256": "cc601ee3f2123ae536ead4d653442ef2d5fd9f439d868956feecdf4879b1dcbf"
+    },
+    {
+      "path": "src/posix_assets.cpp",
+      "size": 7983,
+      "sha256": "8e1f5c78a21e68eb502efda8c4df774ebecaa1cb0099ca15901da77bc7ae134e"
+    },
+    {
+      "path": "src/post_blit.cpp",
+      "size": 2779,
+      "sha256": "a1725e3984fe748a3e800cac7160d63891640fb39317fad26e8db5e7830db6ff"
+    },
+    {
+      "path": "src/post_processor.cpp",
+      "size": 23507,
+      "sha256": "89696f5ce3e8d6024741f1356ba6f6795fe6594741f56c683efc94892d4c4367"
+    },
+    {
+      "path": "src/presentation.cpp",
+      "size": 5627,
+      "sha256": "8c6089fe703f3c386bb322f8fd013881ffb51213a76d4c16f1db28f37993cc79"
+    },
+    {
+      "path": "src/ps5_audio.cpp",
+      "size": 3993,
+      "sha256": "98b8451fea0c29246cfe89fd1ba23c9df9ebe85357019ece51d7687b6a79d047"
+    },
+    {
+      "path": "src/ps5_input.cpp",
+      "size": 6369,
+      "sha256": "61a576de775d72d62b8dad2566c3ae5e2a5a4ec9a8a53d3e34e55bd2c6fb2529"
+    },
+    {
+      "path": "src/ps5_process.cpp",
+      "size": 2539,
+      "sha256": "ac04afa25a167061aa836e761456299fc1579104659773664a4d3cfb21375b48"
+    },
+    {
+      "path": "src/ps5_session.cpp",
+      "size": 9583,
+      "sha256": "e8c5169833700169e511fe93456f89ea1969770bdb212d3087819e7e8df51eda"
+    },
+    {
+      "path": "src/pvr_dds.cpp",
+      "size": 3209,
+      "sha256": "fbae9438304128632f4d0c47f870ad6ed8aa4544d493af6d6b92579841cb2c23"
+    },
+    {
+      "path": "src/pvr.cpp",
+      "size": 9315,
+      "sha256": "46dfec444a0b31e3c9aa0821022d39b9640e611bfcc333befaf771744dd584f4"
+    },
+    {
+      "path": "src/reference_game_state.cpp",
+      "size": 3162,
+      "sha256": "6169c69050ae32852931e1f87743446bc5909e836539fa449aa54f44c91c49b9"
+    },
+    {
+      "path": "src/render_layout.cpp",
+      "size": 8352,
+      "sha256": "fbc957306b4630c9d0462cd29010f0628795956e1be3733e8ea816155b52e4eb"
+    },
+    {
+      "path": "src/save_store.cpp",
+      "size": 9163,
+      "sha256": "279c4a9c49546da3190eee68d7883613f7100944ceafafa3b39c13b895aef553"
+    },
+    {
+      "path": "src/scene_actors.cpp",
+      "size": 8309,
+      "sha256": "fe9a732fd798156640f242112cfaf2b6bad571945f4be82b7a7bc7f1088ad035"
+    },
+    {
+      "path": "src/scene_draws.cpp",
+      "size": 9358,
+      "sha256": "2b98a65b5afd876807a4a5683b966cf0b03e9f2b4f5dcd0333cf060490605b4f"
+    },
+    {
+      "path": "src/scene_resource.cpp",
+      "size": 7878,
+      "sha256": "edf1be8db1ce59eaa3a99c2e5941d7832e684fbc09a125cb2b2c54a22e1e8cc6"
+    },
+    {
+      "path": "src/scene_session.cpp",
+      "size": 9245,
+      "sha256": "fc8ccc3db788c430e6a1a6f5553e4ad895f534a60c492e579da5822dcc72613f"
+    },
+    {
+      "path": "src/scene_target.cpp",
+      "size": 6269,
+      "sha256": "0c060b72a5f5f77dc32d381a3b2b53bdf8a9683c51b451279250db87163ed63c"
+    },
+    {
+      "path": "src/sdl_events.cpp",
+      "size": 2965,
+      "sha256": "f29e46a54ad0e15f158d92dc36ef7e20b959d557f516ba7f6c613c030de1132b"
+    },
+    {
+      "path": "src/spsd_aica.cpp",
+      "size": 9753,
+      "sha256": "335a600268d7a6426e65b739d586019f29dc6ac5a46d5635d43ec40fd397e961"
+    },
+    {
+      "path": "src/spsd_voice.cpp",
+      "size": 5804,
+      "sha256": "619556e01ce6d0beb40274503c34de27c5696e60ea93896adb85cc351f81eab6"
+    },
+    {
+      "path": "src/spsd.cpp",
+      "size": 6590,
+      "sha256": "607ead7d5e4fdddda00009a16753ffbe55ee156c593e2705c5190d6077d840dc"
+    },
+    {
+      "path": "src/srf.cpp",
+      "size": 9820,
+      "sha256": "9474d7abfa84eb342ed670cda876599baf564c19062dc4b81e2ded5de39732b5"
+    },
+    {
+      "path": "src/startup_resources.cpp",
+      "size": 8628,
+      "sha256": "d7b8760a2acfb51646878f19c7c774465598d49021b9fa429a0a3152355139b5"
+    },
+    {
+      "path": "src/startup_scene.cpp",
+      "size": 6443,
+      "sha256": "b693cbe911ee8302148ad8500ecf91915b822cf07273bbc46a7c06d8443bf269"
+    },
+    {
+      "path": "src/tac_reader.cpp",
+      "size": 3929,
+      "sha256": "0f57973f32224ba3934c1b7ac0c47754c583c939b41f5f410e196ecabbe7777d"
+    },
+    {
+      "path": "src/tad.cpp",
+      "size": 4798,
+      "sha256": "b4c57a749eb769ba83c705902c5d1c42f8e8159a268a973ce42a0d72dd6ff900"
+    },
+    {
+      "path": "src/texture_resource.cpp",
+      "size": 5420,
+      "sha256": "69bf4510ae54ef76b6a976e203288714a4cdd491735d8f8be5e5f11dff04e86c"
+    },
+    {
+      "path": "src/world_clock.cpp",
+      "size": 5692,
+      "sha256": "dec659272decd9072908621f7333bbe01360608a495c38ed60b6f6189ea451fc"
+    },
+    {
+      "path": "src/world_collision.cpp",
+      "size": 6681,
+      "sha256": "e88bf0048f033d32d211ef19e7303ffd535a4f79a7d82ffa48a6b6250f7ec0f4"
+    },
+    {
+      "path": "third_party/fsr1/ffx_a.h",
+      "size": 181915,
+      "sha256": "f60e2722fcd13989523b9164d776ab382b3692791767f3bf8bb19967f763f3fb"
+    },
+    {
+      "path": "third_party/fsr1/ffx_fsr1.h",
+      "size": 60310,
+      "sha256": "93c3922362ea7fc99cbcc698ca30c98de4f8c246d1fbb0b09e015ddef38ce3a5"
+    },
+    {
+      "path": "third_party/fsr1/LICENSE.txt",
+      "size": 1094,
+      "sha256": "db089274ce766da70f5b7d791029c3486f9f9e27c8c79c652689603d3192e802"
+    },
+    {
+      "path": "third_party/fsr1/PROVENANCE.md",
+      "size": 910,
+      "sha256": "8c25279b7b003592d004926a5cbb4396d2f0d8af3dad0540401dfbe751d4a631"
+    },
+    {
+      "path": "third_party/licenses/glslang-LICENSE.txt",
+      "size": 54615,
+      "sha256": "17e70c676e1521ff3e4686f04a2053d93a7e28a33be8de7ec37ab0ff72feb677"
+    },
+    {
+      "path": "third_party/licenses/new-yokosuka-GPL3.txt",
+      "size": 32469,
+      "sha256": "5528ef9fa024cacb7625b0c5a0750767d8ce07fb2c38f4c7e641208e4a29f71c"
+    },
+    {
+      "path": "third_party/licenses/new-yokosuka-server-world-clock-MIT.txt",
+      "size": 1070,
+      "sha256": "2f9dc7763f08faad9987952999394dcbd071a51621ecdc1fb0ae056dd86ff713"
+    },
+    {
+      "path": "third_party/licenses/PE1-platform-MPL2.txt",
+      "size": 17099,
+      "sha256": "cde215e5b42363eb28ca2462c4558ff4807b38f383c537624c31e44657ac58f4"
+    },
+    {
+      "path": "third_party/licenses/shenmuedk-MIT.txt",
+      "size": 1061,
+      "sha256": "f610233aa48f8d33c0821797ea0390ef3110ac82d683e0d19e8dff871819790c"
+    },
+    {
+      "path": "third_party/licenses/vgmstream-yamaha-ISC.txt",
+      "size": 1314,
+      "sha256": "fcc26d35c4c4365e31f21734f846e4ee362ff0b57ba696085605a7b4768d8763"
+    },
+    {
+      "path": "third_party/miniz/LICENSE",
+      "size": 1184,
+      "sha256": "0115478d567121238cf6cc1c0c361926cf07a49d9e4c9e66da97fac6a01646b3"
+    },
+    {
+      "path": "third_party/miniz/miniz_common.h",
+      "size": 2726,
+      "sha256": "8b60e76e726dfcf41a338c3a4c54c70038041a21e6314aa54fd3b7f729ea3412"
+    },
+    {
+      "path": "third_party/miniz/miniz_export.h",
+      "size": 116,
+      "sha256": "28e708adae9a2dab65a801707886318610cbd0079bcc5da5dbd21289eb63b74b"
+    },
+    {
+      "path": "third_party/miniz/miniz_tdef.h",
+      "size": 10113,
+      "sha256": "12b09b189c27aa7d0b0ebe0be2f3021a3bab26fe7b19e9b3b6f5c4df7c21e9df"
+    },
+    {
+      "path": "third_party/miniz/miniz_tinfl.c",
+      "size": 38261,
+      "sha256": "9b7edc1fab708166e10f5e90a618a91c95a91496c4692e38160fdae810c1149a"
+    },
+    {
+      "path": "third_party/miniz/miniz_tinfl.h",
+      "size": 8343,
+      "sha256": "040aad2d9ca23c487652c150277d950be12e72c5453ae1f7c6713ed2efd16b4e"
+    },
+    {
+      "path": "third_party/miniz/miniz_zip.h",
+      "size": 25299,
+      "sha256": "c9343f0d251d92f3730d5fe684d4af67aa0bed25d2d1d39d5fd4746a3c63f796"
+    },
+    {
+      "path": "third_party/miniz/miniz.h",
+      "size": 24806,
+      "sha256": "8033197e77c9567de66425939ab6164405e54aa3c60acf9312905d32c8cddc03"
+    },
+    {
+      "path": "third_party/miniz/PROVENANCE.md",
+      "size": 982,
+      "sha256": "ada327bbdcd546764df05ad00c6025e71717cdc9fcd0acaaa27ba05d9a97216a"
+    }
+  ],
+  "manifest_excludes_itself": true,
+  "format": 1
+}
