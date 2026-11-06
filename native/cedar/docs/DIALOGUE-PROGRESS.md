@@ -1,0 +1,18 @@
+# Authored dialogue-progress compatibility core
+
+`DialogueProgress` adapts the class core of [NativeDialogueProgressState.js](http<LOCAL_REFERENCE>/NativeDialogueProgressState.js). This is compatibility behavior of that independently published authored reference, **not proven original Shenmue engine semantics**, a story interpreter, or a native game-save codec.
+
+The new header and implementation are GPL-3.0-only. The complete upstream root license is retained at `third_party/licenses/new-yokosuka-GPL3.txt`. Upstream author attribution: brynnb / New Yokosuka; the inspected source has no additional file-level notice. Pin: `b0df7f2720a7eecabce2e610fdedec35bf1243e3`; source blob `6aa48f6564f9676b17e5920b7065989a3efa852e`. No generated progress indices, actor identities, story scripts, assets, external original-source examples or restricted recovered source are included.
+
+## Exact supported behavior
+
+- 325 records, each 12 bytes: four explicit little-endian unsigned 16-bit offsets, then four preserved auxiliary bytes. Snapshot load requires exactly 3900 bytes. Store writes exactly 3900 bytes into sufficient caller storage; no host struct packing is used.
+- A fresh object is uninitialized. Explicit `initialize_reference_defaults()` reproduces reference zero offsets plus auxiliary IEEE binary32 `9.0` bits (`0x41100000`). This is reference initialization, not original-story initialization. No implicit sentinel or actor assignment is added.
+- `begin_selection` retains the auxiliary bytes, clears continuation/boundary/latest only when selection changes. `write_offset` and `resolve_redirect` reproduce the four authored offset fields and saved-continuation branch. Boundary subtraction uses signed arithmetic before continuation comparison.
+- `complete_state5` implements only the reference's supplied-route calculation: flags bit 0/6 gate; otherwise advance by three; saved continuation reads a three-byte **big-endian signed 24-bit** relative displacement; nonzero displacement sets bit 7 and continuation5c. It does not interpret an opcode, execute a state machine, schedule a yield, or establish what state 5 means in the original game. Caller explicitly supplies current offset, flags and optional continuation5c presence. Unknown flag bits are preserved except the stated source operations.
+
+All indices and offsets are checked; invalid requests leave state and output parameters unchanged. Completion requires initialized state and a valid record index even on the bypass branch (the reference bypass does not require these). Caller routes are capped at 65536 bytes, with representable 16-bit positions. Current offset, a present continuation5c, and calculated target must lie within the supplied route. End-of-route positions are allowed, but operand reads require all three bytes and the operand end itself must remain representable. These route bounds are a deliberate stricter contract than the JavaScript source. Mutable outputs cannot overlap this object, the runtime input, or route bytes as relevant. The class makes no allocation, files, JSON parsing, generated identity mapping, route-base rebasing or native save conversion. Caller owns synchronization and input validity for the duration of each call.
+
+The reference JSON schema marker is `new-yokosuka-native-dialogue-progress-v1`; this facility preserves only its exact byte payload, not a JSON wire parser. Raw auxiliary bits remain opaque; the API does not assume they always represent a metric float.
+
+Source reviewed only; this worker performed no compilation, runtime, asset decoding or tests. Lead owns batch compilation and integration. These methods have no engine/story call sites until a genuine producer supplies routes and identifiers.
